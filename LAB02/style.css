@@ -1,0 +1,68 @@
+.artistEntry {
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-color:silver;
+}
+.artistEntry:hover{
+    background-color: gainsboro;
+    cursor: pointer;
+}
+.artistInfo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 400px;
+
+}
+
+.artistName {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.artistPic {
+    float: left;
+    width: 84px;
+    height: 84px;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.description {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.catalogue {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+}
+
+
+.searchBox {
+    border-width:1px;
+    border-style:solid;
+    border-color:silver;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.searchInput {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    width: 460px;
+    font-size: 20px;
+}
+
+.title {
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

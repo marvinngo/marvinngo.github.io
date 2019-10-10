@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Artist Directory</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <script src="scripts.js" defer></script>
+    </head>
+    <body onload="loadFromLocalStorage()">
+        <div class="searchBox">
+            <h2 class="title">Artist Directory</h2>
+            <div class = "searchInputDiv">
+                <input class="searchInput" id="searchBar" type="text"/>
+                <button class="smallButton" onclick="toggleAddArtist()">Add artist</button>
+                <button class="smallButton" onclick="search()">Search</button>
+            </div>
+        </div>
+        <div class="newArtistForm" id="newEntryForm">
+            <input class="artistInputs" id="artistName" type="text" placeholder="Artist Name" maxlength="40">
+            <input class="artistInputs" id="artistAbout" type="text" placeholder="About Artist" maxlength="40">
+            <input class="artistInputs" id="artistImage" type="text" placeholder="Image URL">
+            <input class="addButton" type="submit" value="Add" onclick="addNewArtist()">
+            <p id="error">All fields must be filled in</p>
+          </div>
+        <div class="catalogue" id="artistCatalogue">
+        </div>
+    </body>
+</html>
